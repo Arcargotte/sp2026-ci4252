@@ -47,7 +47,7 @@
  *      y así, usando una raíz de la unidad, calcula n puntos usando
  *      las primeras n/2 raíces y, como las otras n/2 están a un ángulo pi
  *      de diferencia del círculo unitario complejo, las calcula con la 
- *      expresión (-1) * w^j. FFT tiene una complejidad O(nlogn).
+ *      expresión w^-1. FFT tiene una complejidad O(nlogn).
  * 
  *      Retomando el problema de hallar M^-1, notamos que la inversa es \
  *      equivalente a hallar otra DFT con raíz w^-1 y dividir la matriz
